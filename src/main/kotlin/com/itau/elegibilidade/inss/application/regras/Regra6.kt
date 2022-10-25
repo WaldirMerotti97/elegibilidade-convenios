@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 class Regra6 : Regra {
 
     val parametros = ParametrosRegra(
-            codigoConvenio = Convenios.INSS.codigo,
+            codigoConvenio = Convenios.IPSEMG.codigo,
             codigoDominio = Dominios.OP.codigo,
             codigoModalidade = Modalidades.PORTABILIDADE.codigo)
 
