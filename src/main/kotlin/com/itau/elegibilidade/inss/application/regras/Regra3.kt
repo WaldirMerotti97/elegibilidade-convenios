@@ -12,7 +12,7 @@ class Regra3 : Regra {
     val parametros = ParametrosRegra(
             codigoConvenio = Convenios.INSS.codigo,
             codigoDominio = Dominios.OP.codigo,
-            codigoBanco = Modalidades.PORTABILIDADE.codigo)
+            codigoModalidade = Modalidades.PORTABILIDADE.codigo)
 
     override fun executar(request: RegraRequest) {
 

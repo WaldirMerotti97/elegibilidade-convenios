@@ -3,7 +3,20 @@ package com.itau.elegibilidade.inss.application.regras;
 import com.itau.elegibilidade.inss.entrypoint.RegraRequest
 import java.math.BigDecimal
 
-data class ParametrosRegra(val valorParcela: BigDecimal? = null, val valorSolicitado: BigDecimal? = null, val codigoBanco: Int? = null, val numeroAgencia: Int? = null, val numeroConta: Int? = null, val numeroDigitoConta: Int? = null, val codigoMeioPagamento: String? = null, val indicadorContaPrincipal: Boolean? = null, val siglaUfBeneficio: String? = null, val codigoConvenio: Int? = null, val codigoDominio: Int? = null, val codigoModalidade: Int? = null) {
+data class ParametrosRegra(
+        val valorParcela: BigDecimal? = null,
+        val valorSolicitado: BigDecimal? = null,
+        val codigoBanco: Int? = null,
+        val numeroAgencia: Int? = null,
+        val numeroConta: Int? = null,
+        val numeroDigitoConta: Int? = null,
+        val codigoMeioPagamento: String? = null,
+        val indicadorContaPrincipal: Boolean? = null,
+        val siglaUfBeneficio: String? = null,
+        val codigoConvenio: Int? = null,
+        val codigoDominio: Int? = null,
+        val codigoModalidade: Int? = null
+) {
 
     fun respeitaCondicoesEntrada(regraRequest: RegraRequest): Boolean {
 
