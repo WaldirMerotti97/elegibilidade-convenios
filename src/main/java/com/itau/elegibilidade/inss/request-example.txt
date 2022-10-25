@@ -1,9 +1,0 @@
-endpoint: http://localhost:8080/regras
-
-request body:
-
-{
-    "codigoConvenio":1581,
-    "codigoDominio": 1,
-    "codigoModalidade": 3
-}
